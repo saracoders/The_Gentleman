@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Gentleman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+  <link rel="stylesheet" href="css/grid-system.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/elegant-fonts.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css"> 
+</head>
+<body>
+	<!-- Aqui va el código de su examnen ¡Que les vaya muy bien chicas! Yo se que lo harán genial :3 -->
+  <header>
+    <div class="container-fluid">
+      <div class="clearfix">
+        <a class="logo" href="index.html">The Gentleman</a>
+        <nav id="menu">
+          <a class="nav-mobile" id="nav-mobile" href="#"></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#features">Portfolio</a></li>
+            <li><a href="#portafolio">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="container-fluid clearfix home">
+      <div class="image">
+        <img src="img/header.png">
+      </div>
+      <div class="text">
+        <h2>The Gentleman Wordpress Themes has attitude!</h2>
+        <p>Consectetur lorreto del mar old west sheriff barber shop quartet robot moustache brigadier cardinal richelieu, consectetur graeme souness des lynam cardinal richelieu old west sheriff brigadier lorreto del mar old west sheriff testosterone trophy</p>
+        <p>Blue oyster bar robot moustache leader of men barber shop quartet sweat irrigator,. Bruce forsyth cardinal richelieu oyster souness despot groucho-a-like cesar romero sterling</p>
+        <div class="btn btn-read"><a href="#">Read More</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container-fluid portfolio">
+      <h2>LATEST PROYECTS</h2>
+      <div></div>
+      <nav>
+        <a href="#">Recent Work</a>
+        <a href="#">Popular Work</a>
+        <a href="#">All Work</a>
+      </nav>
+      <div class="cont-portfolio clearfix">
+        <ul class="clearfix">
+          <li>
+            <img src="img/main-pic.png">
+            <h3>Cappuccino Catcher Urna Placerat Ornare</h3>
+            <span>1598 <i class="icon_heart"></i> 175 <i class="fa fa-eye"></i>
+            </span>
+            <p>Mark lawrenson cream bun disaster groucho-a-like brandy yeoman farmer hairy kit at school? By  jingo. dolor sit amet wario, mustachioed by jingo. wario dolor sit amet albert.</p>
+          </li>
+          <li class="ml-2">
+            <img src="img/main-pic.png">
+            <h3>Cappuccino Catcher Urna Placerat Ornare</h3>
+            <span>1598 <i class="icon_heart"></i> 175 <i class="fa fa-eye"></i>
+            </span>
+            <p>Mark lawrenson cream bun disaster groucho-a-like brandy yeoman farmer hairy kit at school? By  jingo. dolor sit amet wario, mustachioed by jingo. wario dolor sit amet albert.</p>
+          </li>
+          <li>
+            <img src="img/main-pic.png">
+            <h3>Cappuccino Catcher Urna Placerat Ornare</h3>
+            <span>1598 <i class="icon_heart"></i> 175 <i class="fa fa-eye"></i>
+            </span>
+            <p>Mark lawrenson cream bun disaster groucho-a-like brandy yeoman farmer hairy kit at school? By  jingo. dolor sit amet wario, mustachioed by jingo. wario dolor sit amet albert.</p>
+          </li>
+          <li class="ml-2">
+            <img src="img/main-pic.png">
+            <h3>Cappuccino Catcher Urna Placerat Ornare</h3>
+            <span>1598 <i class="icon_heart"></i> 175 <i class="fa fa-eye"></i>
+            </span>
+            <p>Mark lawrenson cream bun disaster groucho-a-like brandy yeoman farmer hairy kit at school? By  jingo. dolor sit amet wario, mustachioed by jingo. wario dolor sit amet albert.</p>
+          </li>
+          <li>
+            <img src="img/main-pic.png">
+            <h3>Cappuccino Catcher Urna Placerat Ornare</h3>
+            <span>1598 <i class="icon_heart"></i> 175 <i class="fa fa-eye"></i>
+            </span>
+            <p>Mark lawrenson cream bun disaster groucho-a-like brandy yeoman farmer hairy kit at school? By  jingo. dolor sit amet wario, mustachioed by jingo. wario dolor sit amet albert.</p>
+          </li>
+          <li class="ml-2">
+            <img src="img/main-pic.png">
+            <h3>Cappuccino Catcher Urna Placerat Ornare</h3>
+            <span>1598 <i class="icon_heart"></i> 175 <i class="fa fa-eye"></i>
+            </span>
+            <p>Mark lawrenson cream bun disaster groucho-a-like brandy yeoman farmer hairy kit at school? By  jingo. dolor sit amet wario, mustachioed by jingo. wario dolor sit amet albert.</p>
+          </li>
+        </ul>
+        <div class="btn-loat btn"><a href="#">Loat More</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desplegable Header -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+
+      var btn_movil = $('#nav-mobile'),
+        menu = $('#menu').find('ul');
+
+      // Al dar click agregar/quitar clases que permiten el despliegue del menú
+      btn_movil.on('click', function (e) {
+        e.preventDefault();
+
+        var el = $(this);
+
+        el.toggleClass('nav-active');
+        menu.toggleClass('open-menu');
+      })
+
+    });
+        </script>
+
+</body>
+</html>
